@@ -1,0 +1,43 @@
+body {
+	min-width: 196px;
+}
+.colpad {
+  padding-bottom: 15px;
+  padding-top: 15px;
+}
+
+.backcolor {
+	background-color: #a3a3a3;
+}
+
+.navborder {
+	border: 5px solid black;
+	border-width: 5px 0px;
+}
+
+.navbar-light .nav-item.active .nav-link,
+.navbar-light .nav-item:focus .nav-link,
+.navbar-light .nav-item:hover .nav-link {
+        color: #000000;
+}
+
+@media (min-width:768px) {
+  
+	button {
+		display: none;
+	}
+
+	a {
+		opacity: 0;
+		visibility: hidden;
+		display: none;
+	}
+
+	hr {
+		opacity: 0;
+		visibility: hidden;
+		display: none;
+
+	}
+
+}
